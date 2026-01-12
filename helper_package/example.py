@@ -26,3 +26,21 @@ def PrintString(message):
     Hello hello!
   """
   print(f"{message}")
+
+def AddNumbers(num1, num2):
+  """
+  Returns the sum of the two given numbers.
+
+  Args:
+    num1 (int): The first number to be added.
+    num2 (int): The second number to be added.
+
+  Returns:
+    int: The summation of num1 and num2.
+
+  Example:
+    >>> AddNumbers(1, 2)
+    3
+  """
+  summed_num = num1 + num2
+  return summed_num
